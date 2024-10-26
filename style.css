@@ -65,7 +65,7 @@
 .samplecon {
     background-color: #e7e7ec;
     padding-top: 3px;
-    padding-bottom: 10px;
+    padding-bottom: 24px;
 
     width: 100%;
     height: 100%;
@@ -73,8 +73,8 @@
 
 .skillcon {
     background-color: #7ae4f7;
-    padding-top: 3px;
-    padding-bottom: 10px;
+    padding-top: 4px;
+    padding-bottom: 20px;
 
     width: 100%;
     height: 100%;
@@ -83,7 +83,7 @@
 .contactcon {
     background-color: #f5ecf5;
     padding-top: 3px;
-    padding-bottom: 20px;
+    padding-bottom: 27px;
 
     width: 100%;
     height: 100%;
@@ -92,7 +92,7 @@
 .detailscon {
     background-color: #ecf5f5;
     padding-top: 3px;
-    padding-bottom: 10px;
+    padding-bottom: 24px;
 
     width: 100%;
     height: 100%;
