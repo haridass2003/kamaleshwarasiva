@@ -29,7 +29,7 @@ document.querySelectorAll('.faq-item').forEach(item => {
 
 
 
-const scriptURL = 'https://script.google.com/macros/s/AKfycbwy-Vy3HpZeLEqB0OvTBk_7j4C-5Clv76XuALN2cxozghsn3YezbllntAteElKnQLTl8w/exec'
+const scriptURL = ''
 
 
 const form = document.forms['contact-form']
