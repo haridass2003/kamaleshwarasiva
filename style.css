@@ -504,19 +504,12 @@ h2 {
     font-size: 18px;
 }
 
-body {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.container {
-    width: 500px;
+.containers {
+    width: 100%;
     padding: 30px;
     border: 1px solid #eeeeee;
     border-radius: 10px;
-    background-color: #003b5b;
+    background-color: transparent;
 }
 
 h4 {
