@@ -1,3 +1,29 @@
+const scriptURL = 'https://script.google.com/macros/s/AKfycbwy-Vy3HpZeLEqB0OvTBk_7j4C-5Clv76XuALN2cxozghsn3YezbllntAteElKnQLTl8w/exec'
+
+
+const form = document.forms['contact-form']
+
+
+form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, {
+            method: 'POST',
+            body: new FormData(form)
+        })
+        .then(response => alert("Thank you! your form is submitted successfully."))
+        .then(() => {
+            window.location.reload();
+        })
+        .catch(error => console.error('Error!', error.message))
+})
+
+
+
+
+
+
+
+
 document.addEventListener("DOMContentLoaded", function() {
     const progressBars = document.querySelectorAll('.progress');
 
@@ -25,25 +51,3 @@ document.querySelectorAll('.faq-item').forEach(item => {
 });
 
 
-
-
-
-
-const scriptURL = ''
-
-
-const form = document.forms['contact-form']
-
-
-form.addEventListener('submit', e => {
-    e.preventDefault()
-    fetch(scriptURL, {
-            method: 'POST',
-            body: new FormData(form)
-        })
-        .then(response => alert("Thank you! your form is submitted successfully."))
-        .then(() => {
-            window.location.reload();
-        })
-        .catch(error => console.error('Error!', error.message))
-})
