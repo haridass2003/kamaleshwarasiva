@@ -507,7 +507,7 @@ h2 {
 .containers {
     width: 100%;
     padding: 30px;
-    border: 1px solid #eeeeee;
+    border: 1px solid;
     border-radius: 10px;
     background-color: transparent;
 }
